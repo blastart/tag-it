@@ -1,5 +1,4 @@
 
-
 (function($) {
 
     /*
@@ -18,7 +17,7 @@
      *          -  new triggers:
      *                  - $('ul.your_tagit').trigger('newtag', ['new tag name'])  -> add new tag
      *                  - $('ul.your_tagit').trigger('newtags', [[array of new tags]]) -> add multiple tags
-     *                          (In this case, the removeEvent() event is not fired.)
+     *                          (In this case, the addEvent() event is not fired.)
      *                  - $('ul.your_tagit').trigger('remove_all') -> flush all tags (removeEvent() will not be fired)
     */
 
